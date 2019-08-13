@@ -1,16 +1,8 @@
-def reverse(s): 
-    return s[::-1]
-def isPalindrome(s): 
-    rev = reverse(s)
-    if (s == rev): 
-        return True
-    return False
-s = "sheeja"
-ans = isPalindrome(s) 
-if ans == 1: 
-    print("Yes") 
-else: 
-    print("No") 
-
+s="malayalam"
+rev=''.join(reversed(s))
+if(s==rev):
+    print("yes")
+else:
+    print("no")
   
 
